@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>NativoPlusStudio.YouTubeApi.Responses</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IHigh.cs" />
+    <Compile Remove="IMedium.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NativoPlusStudio.YouTubeApi.Contracts\NativoPlusStudio.YouTubeApi.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

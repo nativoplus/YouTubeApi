@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>NativoPlusStudio.YouTubeApi.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="YouTubeResponse.cs" />
+  </ItemGroup>
+
+</Project>
